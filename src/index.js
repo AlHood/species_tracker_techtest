@@ -13,7 +13,7 @@ class MapView extends React.Component {
       return (
         <div>
           <Map
-            style={{height: "100vh"}}
+            style={{height: "80vh"}}
             center={position}
             zoom={10}>
             <TileLayer
